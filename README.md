@@ -1,5 +1,5 @@
 # String-Calculator
-SUBMITTING THE ASSESSMENT
+SUBMITTING THE ASSESSMENT(INCUBYTE ASSESSMENT)
 1-Create a git repository on GitHub/GitLab. 
 2-Clone the repository to your local machine. 
 3-Follow best practices for TDD, git and commit often.
