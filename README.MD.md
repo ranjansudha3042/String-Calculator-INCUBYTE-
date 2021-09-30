@@ -1,0 +1,45 @@
+# TDD Exercise (INCUBYTE)
+
+## Description
+=================================
+=========STRING CALCULATOR=======
+=================================
+SUBMITTING THE ASSESSMENT 
+1-Create a git repository on GitHub/GitLab.
+2-Clone the repository to your local machine. 
+3-Follow best practices for TDD, git and commit often. 
+4-Push your changes to GitHub/GitLab.
+
+           ===STEPS===
+     STRING CALCULATOR TDD KATA
+1-Create a simple String calculator with a method signature:
+
+         --int Add(string numbers) 
+2-The method can take up to two numbers, separated by commas, and will return their sum.
+
+   For example "" or "1" or "1,2" as inputs. (for an empty string it will return 0)
+
+   Hints:
+         --Start with the simplest test case of an empty string and move
+           to one and two numbers --Remember to solve things as simply as 
+           possible so that you force yourself to write tests you did not think about 
+         --Remember to refactor after each passing test
+
+3-Allow the Add method to handle an unknown amount of numbers
+
+4-Allow the Add method to handle new lines between numbers (instead of commas).
+
+    --The following input is ok: "1\n2,3" (will equal 6) 
+    --The following input is NOT ok: "1,\n" (not need to prove it - just clarifying)
+
+5-Support different delimiters
+
+    --To change a delimiter, the beginning of the string will contain a separate 
+      line that looks like this: "//[delimiter]\n[numbers…]" for example "//;\n1;2" should return
+      3 where the default delimiter is ";" 
+    --The first line is optional. all existing scenarios should still be supported 6--Calling 
+      Add with a negative number will throw an exception "negatives not allowed" - 
+      and the negative that was passed.
+
+     (If there are multiple negatives, show all of them in the exception message.)
+  
